@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    display:flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.lewo{
+    display:flex;
+    justify-content: center;
+    background: yellow;
+    height: 100%;
+    width: 10%;
+}
+
+.jeden{
+    display:flex;
+    width:100%;
+    height: 100vh;
+    flex-wrap:wrap;
+}
+
+.gora_lewo{
+    display: flex;
+    justify-content: center;
+    background: green;
+    width:50%;
+    height: 50vh;
+    align-items: center;
+}
+
+.gora_prawo{
+    display: flex;
+    justify-content: center;
+    background: lightblue;
+    width:50%;
+    height: 50vh;
+    align-items: center;
+}
+
+.dol{
+    display:flex;
+    justify-content: center;
+    background: pink;
+    width:100%;
+    height: 50vh;
+    align-items: center;
+}
+
+#button{
+    width:50px;
+    height: 50px;
+    border:1px solid black;
+}
