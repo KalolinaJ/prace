@@ -1,0 +1,40 @@
+* {
+    padding: 0px;
+    margin:0px;
+}
+
+body{
+    display:flex;
+    height: 100vh;
+    width: 100%;
+    flex-wrap:wrap;
+}
+
+.top{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    background: lightblue;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftd{
+    display: flex;
+    height: 50%;
+    width: 50%;
+    background: lightcoral;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.rightd{
+    display: flex;
+    height: 50%;
+    width: 50%;
+    background: lightgrey;
+    justify-content: center;
+    align-items: center;
+}
+
