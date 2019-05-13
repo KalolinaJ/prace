@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+<body>
+    <div class="main">
+
+        <header>
+            <img src="Shell.jpg" alt="" class="shell"><p class="rowery">RoWeRy</p>
+        </header>
+        <nav>
+            <ul class="lista">
+                <li class="item">ziomek</li>
+                <li class="item">go
+                    <ul class="lista2">
+                        <li class="subitem">ziomek</li>
+                        <li class="subitem">idz</li>
+                        <li class="subitem">na</li>
+                        <li class="subitem">rower</li>
+                    </ul>
+                </li>
+                <li class="item">na</li>
+                <li class="item">rower</li>
+            </ul>
+        </nav>
+
+        <div class="middle">
+
+            <section>sec</section>
+            <article>art</article>
+            <aside>ee</aside>
+
+        </div>
+
+        <footer></footer>
+
+    </div>
+</body>
+<script src="main.js"></script>
+</html>
