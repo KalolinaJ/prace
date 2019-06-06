@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>UI Elements</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="tabs">
+		<div class="tabs__sidebar">
+			<img src="iconfinder_logo_brand_brands_logos_linux_2993682.svg" class="tabs__addBtn">
+			<button class="tabs__btn tabs__btn--active tabBtn" data-tab-nr="1">Tab1
+				<img src="iconfinder_business_finance_money-35_2784272.svg" class="tabBtn__deleteTab">
+			</button>
+            <button class="tabs__btn tabBtn" data-tab-nr="2">Tab2
+                <img src="iconfinder_business_finance_money-35_2784272.svg" class="tabBtn__deleteTab">			</button>
+            <button class="tabs__btn tabBtn" data-tab-nr="3">Tab3
+                <img src="iconfinder_business_finance_money-35_2784272.svg" class="tabBtn__deleteTab">			</button>
+        </div>
+        <div class="tabs__content tabs__content--active" data-content-nr="1">
+            content 1
+        </div>
+        <div class="tabs__content" data-content-nr="2">
+            content 2
+        </div>
+        <div class="tabs__content" data-content-nr="3">
+            content 3
+		</div>
+	</div>
+</body>
+<script src="main.js"></script>
+
+</html>
