@@ -1,0 +1,72 @@
+*{
+
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 50vh; 
+    --textColor: #251E25;
+    --primaryColor:rgb(168, 108, 170);
+    --secondaryColor:rgb(225, 190, 226);
+    --activeColor:rgb(125, 41, 173);
+}
+.tabs{
+    height: 50vh;
+    color: var(--textColor);
+}
+
+.tabs__sidebar{
+    height:10%;
+    display: flex;
+}
+
+
+.tabs__btn {
+    display: flex;
+    background:var(--primaryColor);
+    outline: none;
+    border-top: 1 px solid black;
+    border-left: 1 px solid black;
+    border-right: 1 px solid black;
+    border-bottom: none;
+    cursor: pointer;
+    height: 100%;
+    flex:15% 0 1; 
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabs__content{
+    background: var(--secondaryColor);
+    display: none;
+    padding: 2rem;
+
+}
+
+.tabs__content--active{
+    display: block;
+    height:90%;
+}
+
+.tabs__btn--active{
+    background: var(--secondaryColor);
+}
+.tabBtn__deleteTab{
+    width:32px;
+    height: 32px;
+}
+
+
+.tabBtn__deleteTab {
+    width:32px;
+    height: 32px;
+}
+
+.tabs__btn--active, .tabs__content--active {
+    background:214, 164, 216;
+}
+
+.tabs__addBtn{
+    background: lavender;
+}
