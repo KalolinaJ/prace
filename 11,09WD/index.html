@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script>
+    $(document).ready(function(){
+        $("p").click(function(){
+            var fontSize = $("p").css("font-size");
+                fontSize = parseInt(fontSize) + 2 + "px";
+             console.log(fontSize);
+         if( $(this).css("background-color") == 'rgb(255, 255, 0)' ){
+            $(this).css("background-color","red" ) }
+        else {
+                $(this).css("background-color", "yellow");
+            }
+        $(this).css("font-size",fontSize);
+         }
+    );
+    });
+    </script>
+</head>
+<body>
+  <p>a</p>
+  <p>a</p>
+  <p>a</p>
+  <p>a</p>
+  <p>a</p>
+  <p>a</p>
+  <p>a</p>
+</body>
+</html>
