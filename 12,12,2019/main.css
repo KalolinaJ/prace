@@ -1,0 +1,120 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card{
+    width:40rem;
+    height: 60vh;
+    background: #ffa07a;
+    position: relative;
+    border-radius: 50px;
+
+}
+
+.photo{
+    display: block;
+    width: 40rem;
+    position: absolute;
+}
+
+.images{
+    height: 14rem;
+    background: lightgray;
+    width: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    display: block;
+}
+
+.price{
+    position: absolute;
+    background: black;
+    width: 100%;
+    top: 0;
+    right: 1rem;
+    text-align:center;
+    color: white;
+    font-size: 2rem;
+}
+
+.color{
+
+    background: lightgray;
+    width: 100%;
+    bottom: 0;
+    text-align:center;
+    margin: 0 0 2px;
+}
+
+.size-item1{
+    color: red;
+}
+.size-item2{
+    color: green;
+}
+.size-item3{
+    color: black;
+}
+
+.promo{
+    position: absolute;
+    background: lightgray;
+    width: 100%;
+    top:2rem;
+    left:0;
+    text-align:center;
+    border-radius: 2px;
+}
+
+@keyframes animacja{
+    0% {left:0%;}
+    
+    50% {left:87%;}
+   
+    100% {left:0%;}
+}
+.prom{
+    position: absolute;
+    left: 0;
+    animation: animacja 5s infinite linear;
+    color: red;
+}
+
+.desc{
+    position: absolute;
+    top:70%;
+    justify-content: center;
+}
+.card{
+    height: 3rem;
+    background: lightcyan;
+}
+
+.header{
+    grid-area: header;
+    background: red;
+    width: 100%;
+    height: 10vh;
+}
+
+.sidebar{
+    grid-area:sidebar;
+    background: orange;
+}
+
+
+.footer{
+    grid-area: footer;
+    background: lightpink;
+    width: 100%;
+}
+
+.container{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-gap:5px;
+}
