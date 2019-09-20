@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  .card {
+      height: 350px;
+      background: rgb(235, 197, 162);
+  }
+
+  .header {
+      grid-area: header;
+      background: rgb(253, 152, 115);
+      border: 1px solid black;
+  }
+  
+  .list{
+    list-style: none;
+  }
+  .footer{
+      grid-area: footer;
+      background: lightgoldenrodyellow;
+  }
+  .sidebar{
+    grid-area: sidebar;
+    background: rgb(240, 201, 128);
+    }
+
+    .card1{
+        width: 320px;
+        height: 250px;
+        background: rgb(192, 162, 105);
+        position: relative;
+    }
+    .photo{
+        display: block;
+        width: 100%;
+        height: 220px;
+    }
+    
+    .info{
+        height: 100%;
+        background: rgb(251, 255, 193);
+        width: 100%;
+        position: absolute;
+        top:0;
+        left:0;
+    
+    }
+    .promo{
+        padding: 10px;
+        color: rgb(255, 255, 255);
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        position: absolute;
+        width: 100%;
+        top:0;
+        right:20px;
+        text-align: center;
+        font-size: 16px;
+        color:rgb(236, 225, 225);
+    } 
+    
+    .price{
+        padding: 10px;
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        text-align: left;
+    }
+    
+    .size{
+       color:white;
+        position: absolute;
+        width: 100%;
+        text-align: right;
+        top:0;
+        /* right:10; */
+        /* margin-right:20px; */
+        /* background:gold; */
+    }
+  
+    
+    .container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: 5rem repeat(3, 1fr) 5rem;
+      grid-gap: 1px;
+      grid-template-areas: 
+        "header header header header"
+        "sidebar item item item"
+        "sidebar item item item"
+        "sidebar item item item"
+        "footer footer footer footer";
+    }
+    .btns {
+        position:relative;
+        /* background: gold; */
+        display:flex;
+        justify-content: flex-end;
+        align-items: center;
+        bottom:50px;
+        right:0;
+        margin:5px;
+    }
+    .btn1 {
+        text-decoration: none;
+        color:black;
+        background: lightcoral;
+        position:relative;
+        background: rgb(255, 255, 207);
+        padding:5px;
+        margin:5px;
+        border:1px solid black;
+        box-sizing:border-box;
+        right:10;
+        bottom:10;
+        /* width:70px; */
+        /* height:50px; */
+        /* margin-bottom:200px; */
+    }
+    .btn1:hover {
+        background: rgb(204, 204, 134);
+    }
+    .description {
+        width:150px;
+        /* background: gold; */
+        margin: 5px;
+        margin-bottom: 10px;
+
+    }
