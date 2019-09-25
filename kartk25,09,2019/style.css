@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.top{
+    grid-area: top;
+    background: lightcyan;
+    width: 80vw;
+    height: 40vh;
+}
+
+
+.left{
+    grid-area: left;
+    background: lightblue;
+    width: 20vw;
+    height: 100vh;;
+}
+
+
+.bottom{
+    grid-area:bottom;
+    background: lightskyblue;
+    width: 80vw;
+    height: 60vh;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: (2, 1fr);
+    grid-template-rows: (2, 1fr);
+    grid-template-areas: 
+    "left top"
+    "left bottom";
+}
