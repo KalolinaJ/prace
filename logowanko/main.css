@@ -1,0 +1,133 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.container {
+    width:100%;
+    height:100vh;
+    background: lightgoldenrodyellow;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 30% 70%;
+}
+.sidebar {
+    background: lightgoldenrodyellow;
+    grid-area: "sidebar";
+    grid-column: 1/2;
+    grid-row: 1/3;
+    padding: 10px;
+    border:1px solid black;
+}
+.top {
+    padding:10px;
+    background: skyblue;
+    grid-area: "top";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:1px solid black;
+}
+.bot {
+    background: lightseagreen;
+    grid-area: "bot";
+    padding:10px;
+    border:1px solid black;
+}
+.logged {
+    font-size: 32px;
+    color: greenyellow;
+}
+.user {
+    font-size:32px;
+    /* margin-bottom: 25px; */
+}
+.nonLogged {
+    font-size:32px;
+    color:red;
+}
+.index {
+    font-size:24px;
+    color: black;
+    text-decoration: underline;
+}
+.lista {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item {
+    margin:10px;
+    margin-top: 20px;
+}
+.link {
+    background: lightsalmon;
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    border: 1px solid black;
+}
+.logPanel {
+    background: lightgoldenrodyellow;
+    width:50%;
+    height:50%;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-wrap:wrap;
+    border:1px solid black;
+}
+.submit {
+    margin:5px;
+    background: lightsalmon;
+    width:96%;
+    height:30px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+#input {
+    margin:5px;
+    background: lightgrey;
+    border:1px solid black;
+    padding:5px;
+    width: 96%;
+    height:30px;
+    text-align: center;
+}
+.logOut {
+    text-decoration: none;
+    color: black;
+    background: rebeccapurple;
+    /* margin-top: 50px; */
+    padding-left: 40px;
+    padding-top: 5px;
+    padding-right: 40px;
+    padding-bottom: 5px;
+    border: 1px solid black;
+}
+table {
+    border:1px solid black;
+    padding:5px;
+    background: lightgreen;
+    margin-top:40px;
+}
+th {
+    padding:5px;
+    background: red;
+    border:1px solid black;
+}
+td {
+    background: lightblue;
+    padding:5px;
+    border:1px solid black;
+}
+#id {
+    display:none;
+}
+#usun {
+    padding:10px;
+    background: red;
+    border:1px solid black;
+    cursor: pointer;
+}
