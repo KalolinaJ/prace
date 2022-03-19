@@ -1,0 +1,60 @@
+
+/* jeden*/
+.jeden{
+
+    color: magenta;
+    font-size: 100px;
+    text-decoration: underline;
+    text-align: center;
+    font-style: oblique;
+    position: relative;
+    animation: animka 5s infinite;
+    animation-direction: alternate;
+
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    outline-style: dotted;
+    text-shadow: 10px 0 10px black;
+    opacity: 50%;
+
+}
+
+
+@keyframes animka {
+    
+    0%   {background: red; left: 0px; top: 0px;}
+    25%  {background: yellow; left: 200px; top: 0px;}
+    50%  {background: blue; left: 200px; top: 200px;}
+    75%  {background: green; left: 0px; top: 200px;}
+    100% {background: red; left: 0px; top: 0px;}
+
+}
+
+.dwa:hover{
+
+    font-size: 72px;
+    color: red;
+}
+
+body{
+    background-color:beige;
+}
+
+.a{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    position: relative;
+    animation: animka2 10s infinite;
+    animation-direction: alternate;
+    background-color: bisque;
+}
+
+@keyframes animka2 {
+    0%   { left: 0px; transform: rotate(20deg)}
+    25%  {left: 25%; transform: rotate(90deg)}
+    50%  {left: 50%; transform: rotate(180deg);}
+    75%  {left: 75%; transform: rotate(270deg)}
+    100% {left: 95%; transform: rotate(360deg)}
+}

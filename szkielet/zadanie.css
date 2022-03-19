@@ -1,0 +1,104 @@
+
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.kolko{
+    width: 200px;
+    height: 200px;
+   
+    background-color: red;
+    border-radius: 100px 100px 100px 100px;
+    animation: animacja 5s infinite;
+}
+
+.srodek{
+    width: 180px;
+    height: 180px;
+    background-color: black;
+    border-radius: 0px 100px 100px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: animacja 5s infinite;
+}
+
+.kw1{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: animacja 5s infinite;
+}
+
+.kw2{
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: animacja 5s infinite;
+}
+
+.kw3{
+    width: 70px;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: animacja 5s infinite;
+}
+
+.kw4{
+    width: 60px;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: animacja 5s infinite;
+}
+
+.kw5{
+    width: 50px;
+    height: 70px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: animacja 5s infinite;
+}
+
+.kw6{
+    width: 40px;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: animacja 5s infinite;
+}
+
+.kw7{
+    width: 30px;
+    height: 60px;
+    background-color: black;
+    animation: animacja 5s infinite;
+}
+
+@keyframes animacja {
+    0%   {transform: rotateY(180deg);}
+    25%  {transform: rotateY(360deg);}
+    50%  {transform: rotateY(180deg);}
+    75%  {transform: rotateY(360deg);}
+    100% {transform: rotateY(180deg);}
+}
